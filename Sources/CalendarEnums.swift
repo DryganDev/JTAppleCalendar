@@ -22,6 +22,8 @@
 //  THE SOFTWARE.
 //
 
+import CoreGraphics
+
 /// Describes a scroll destination
 public enum SegmentDestination {
     /// next the destination is the following segment

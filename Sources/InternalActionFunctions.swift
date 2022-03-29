@@ -22,6 +22,8 @@
 //  THE SOFTWARE.
 //
 
+import UIKit
+
 extension JTAppleCalendarView {
     /// Lays out subviews.
     override open func layoutSubviews() {

@@ -22,6 +22,8 @@
 //  THE SOFTWARE.
 //
 
+import UIKit
+
 extension JTAppleCalendarView {
     func validForwardAndBackwordSelectedIndexes(forIndexPath indexPath: IndexPath, restrictToSection: Bool = true) -> (forwardIndex: IndexPath?, backIndex: IndexPath?, set: Set<IndexPath>) {
         var retval: (forwardIndex: IndexPath?, backIndex: IndexPath?, set: Set<IndexPath>) = (forwardIndex: nil, backIndex: nil, set: [])

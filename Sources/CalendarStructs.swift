@@ -21,7 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-
+import Foundation
+import CoreGraphics
 
 /// Describes which month the cell belongs to
 /// - ThisMonth: Cell belongs to the current month
